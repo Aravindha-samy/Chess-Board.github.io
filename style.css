@@ -1,0 +1,29 @@
+html{
+   background: grey; 
+}
+body{
+    background:white;
+    width: 800px;
+    height:800px;
+    margin: 30px auto;
+}
+.board{
+    width:100%;
+    height: 100px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+
+}
+.box{
+    width: 100px;
+    height:100px;
+    float: left;
+}
+.box:hover{
+    background:rgba(255,0,0,.3);
+
+}
+.black{
+    background: rgba(0,0,0,0.3);
+}
